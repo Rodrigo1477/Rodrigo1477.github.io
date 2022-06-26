@@ -1,0 +1,138 @@
+body{
+    background-color: rgb(243, 187, 76);
+}
+
+
+#contenedor{
+    width: 940px;
+    height: 1400px;
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 10px;
+    margin: auto;
+
+
+}
+.ideal{
+    width: 940px;
+    height: 200px;
+    border: black solid 1px;
+    margin-top: 30px;
+}
+header{
+    position: absolute;
+    width: 890px;
+    height: 20px;
+    padding: 5px;
+    display: flex;
+}
+.color{
+    background-color: darkgoldenrod;
+}
+header h1{
+    margin-left: 20px;
+}
+
+nav{
+    height: 50px;
+    width: 700px;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 200px;
+    border-bottom: 2px solid rgb(243, 162, 0);
+    border-radius: 10px;
+}
+nav a{
+    margin: 20px;
+    padding: 15px;
+    border: 1px  solid rgb(247, 234, 207);
+    background-color: rgb(249, 230, 193);
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header input{
+    margin-top: 100px;
+    border-radius: 15px;
+    height: 50px;
+    width: 500px;
+    margin-right: 70px;
+}
+
+
+main{
+    width: 940px;
+    height: 800px;
+    border-right: 1px solid rgb(243, 162, 0);
+    margin-top: 30px;
+    display: flex;
+    border-radius: 30px;
+}
+.guitarras{
+    border-right: solid 1px rgb(243, 162, 0);
+    width: 200px;
+}
+.ofer{
+    width: 940px;
+    height: 800px;
+}
+.ofertas{
+    height: 400px;
+    width: 700px;
+    display: flex;
+    
+}
+.ofertas p{
+    font-weight: bold;
+    text-align: center;
+}
+.ofertas img{
+    margin-top: 5px;
+}
+article{
+    width: 230px;
+    height: 360px;
+    border: 1px rgb(243, 162, 0) solid ;
+    margin: 10px;
+    border-radius: 10px;
+}
+footer{
+    width: 940px;
+    height: 80px;
+    border-top: 1px solid rgb(243, 162, 0);
+    margin-top: 20px;
+    display: flex;
+    border-radius: 10px;
+    
+    
+}
+.redes{
+    width: 250px;
+    height: 50px;
+    margin-top: 12px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Bruce{
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
